@@ -24,8 +24,8 @@
         android:layout_marginTop="48dp"
         android:ems="10"
         android:inputType="textMultiLine"
-        android:text="text"
-        android:hint="text"
+        android:text="@string/text"
+        android:hint="@string/text"
         android:gravity="top|start"
         app:layout_constraintTop_toTopOf="@+id/textView"
         tools:layout_editor_absoluteX="99dp" />
