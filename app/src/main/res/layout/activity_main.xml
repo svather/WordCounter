@@ -25,9 +25,9 @@
         android:ems="10"
         android:inputType="textMultiLine"
         android:text="@string/text"
-        android:hint="@string/text"
         android:gravity="top|start"
         app:layout_constraintTop_toTopOf="@+id/textView"
-        tools:layout_editor_absoluteX="99dp" />
+        tools:layout_editor_absoluteX="99dp"
+        android:autofillHints="" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

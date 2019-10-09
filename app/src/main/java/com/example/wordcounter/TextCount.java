@@ -4,11 +4,11 @@ public class TextCount {
     public static String textCount(String text){
 
         text = text.replace("\n", " ");
-        String[] textArray = text.split(" ");
+        String[] textArray = text.split("\\s+");
         String[] charArray = text.split("");
         String[] punctuationArray = text.split("[,.!?]");
 
-        String textCounted = ("Words: " +  textArray.length + "Char: " + (charArray.length - 1) + "Punct: " + (punctuationArray.length - 1));
+        String textCounted = String.format("Words: %s Char %s Punct %s", textArray.length, charArray.length, punctuationArray.length);
         return textCounted;
     }
 }

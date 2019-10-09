@@ -33,7 +33,6 @@ public class MainActivity extends AppCompatActivity {
             public void onTextChanged(CharSequence s, int start, int before, int count) {
                 String text = editText.getText().toString();
 
-
                 textView.setText(TextCount.textCount(text));
 
             }
